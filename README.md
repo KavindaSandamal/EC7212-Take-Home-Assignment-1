@@ -34,6 +34,8 @@ This repository contains four separate Python scripts for common image processin
    ```bash
    pip install opencv-python numpy
 
+---
+
 ## Scripts Overview
 
 1. **reduce_intensity_levels.py**
@@ -48,6 +50,8 @@ Rotates the input image by 45 degrees and 90 degrees, saving and displaying both
 4. **block_average.py**
 Performs block averaging with non-overlapping blocks of sizes 3x3, 5x5, and 7x7, replacing each block's pixels with their average color.
 
+---
+
 ## How to Run
 
 Open your terminal or command prompt.
@@ -56,14 +60,14 @@ Change directory to where the scripts and images are located:
 
    Run the following command in your terminal or command prompt:
 
-  ` ```bash
-   pip install opencv-python numpy`
+```bash
+pip install opencv-python numpy
+
 
 Run the desired script by typing:
 
-   ` ```bash
-   pip install opencv-python numpy`
-
+```bash
+pip install opencv-python numpy
   
 When prompted, enter the path to your input image (relative or absolute path).
 
@@ -72,6 +76,8 @@ For the intensity reduction script, also enter the number of intensity levels (p
 Output images will be saved in the same folder with descriptive filenames.
 
 Processed images will display in windows — press any key to close.
+
+----
 
 ## Notes
 
@@ -82,6 +88,8 @@ Intensity levels for reduce_intensity_levels.py must be a power of 2 and ≤ 256
 Blocks smaller than the specified size at image edges are ignored in block_average.py.
 
 Windows displaying images require keyboard input to close.
+
+---
 
 ## Author
 
