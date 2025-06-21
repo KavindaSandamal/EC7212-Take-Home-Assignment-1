@@ -7,6 +7,11 @@ def reduce_intensity_levels(image_path, levels):
         print("Error: Could not read image.")
         return
 
+    # Save the original grayscale image
+    original_output_path = "original_grayscale.jpg"
+    cv2.imwrite(original_output_path, image)
+    print(f"Original grayscale image saved to: {original_output_path}")
+
     if levels < 2 or levels > 256 or (levels & (levels - 1)) != 0:
         raise ValueError("Levels must be a power of 2 and <= 256 (e.g., 2, 4, 8, ..., 256)")
 
@@ -18,6 +23,8 @@ def reduce_intensity_levels(image_path, levels):
     cv2.imwrite(output_path, reduced_image)
     print(f"Saved reduced image to: {output_path}")
 
+    # Show both images
+    cv2.imshow("Original Grayscale", image)
     cv2.imshow(f"Reduced to {levels} levels", reduced_image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
