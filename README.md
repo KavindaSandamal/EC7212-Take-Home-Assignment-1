@@ -60,14 +60,14 @@ Change directory to where the scripts and images are located:
 
    Run the following command in your terminal or command prompt:
 
-```bash
-pip install opencv-python numpy
+` ```bash
+pip install opencv-python numpy `
 
 
 Run the desired script by typing:
 
-```bash
-pip install opencv-python numpy
+` ```bash
+pip install opencv-python numpy`
   
 When prompted, enter the path to your input image (relative or absolute path).
 
