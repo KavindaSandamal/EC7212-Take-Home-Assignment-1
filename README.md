@@ -54,8 +54,8 @@ Open your terminal or command prompt.
 
 Change directory to where the scripts and images are located:
 
-  bash
-  ` ``` cd path/to/your/folder `
+  ` ```bash
+  cd path/to/your/folder `
 
 Run the desired script by typing:
 
