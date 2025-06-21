@@ -54,13 +54,14 @@ Open your terminal or command prompt.
 
 Change directory to where the scripts and images are located:
 
-  ` ```bash
-  cd path/to/your/folder `
+` 
+cd path/to/your/folder`
 
 Run the desired script by typing:
 
-  bash
-  ` ```python script_name.py`
+bash
+python script_name.py
+
   
 When prompted, enter the path to your input image (relative or absolute path).
 
